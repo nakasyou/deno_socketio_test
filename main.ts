@@ -13,6 +13,4 @@ io.on("connection", (socket) => {
   });
 });
 
-await serve(io.handler(), {
-  port: 3000,
-});
+await serve(io.handler());
