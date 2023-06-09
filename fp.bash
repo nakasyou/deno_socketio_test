@@ -1,4 +1,4 @@
-while ["a" = "a"]
+while true
 do
   git pull
 done
